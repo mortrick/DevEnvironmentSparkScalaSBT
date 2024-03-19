@@ -63,6 +63,11 @@ Check inside of your project directory for the NEW_CREATED_JAR at the path targe
 
 Replace in the command bellow the NEW_CREATED_JAR with the name of your jar and execute the spark-submit command on Spark master machine
 
+
+
+Attached is a small Scala application that take CSV and save it as parquet
+
+
 /opt/bitnami/spark/bin/spark-submit \
  --class "dataformat" \
  --master local[*] \
