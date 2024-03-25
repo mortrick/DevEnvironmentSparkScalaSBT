@@ -1,13 +1,13 @@
 # Start developing Scala on bitnami spark cluster
 
-Easy way to provision a development environment of spark cluster with SBT component to execute Scala code with Spark submit.
+Easy way to provision a development environment of spark cluster with SBT component to execute Scala code with Spark submit on top of docker.
 This docker-compose file is an Example of spark architecture using bitnami Spark image together with another SBT image hseeberger/scala-sbt
 allows easy working with Scala dev environment on top of spark.
 
 ## _Pre request:_
 
 - Docker installed
-- Understand scala project folder structure
+- Familarity with scala project folder structure
 
 ## _Installation instructions_
 
